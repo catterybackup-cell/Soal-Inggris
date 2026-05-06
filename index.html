@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USP Bahasa Inggris - SMP Nurul Huda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>UJIAN SATUAN PENDIDIKAN</h1>
+    <h2>SMP Nurul Huda</h2>
+    <div class="info">
+        Tahun Pelajaran 2025-2026
+        <br>
+        Mata Pelajaran: Bahasa Inggris
+        <br>Jumlah: 40 Soal
+    </div>
+    <hr>
+
+    <form id="quizForm">
+        <div id="quizContent">
+            </div>
+        <button type="button" id="submitBtn">Selesai & Cek Skor</button>
+    </form>
+
+    <div id="result" style="display: none;">
+        <h3>Hasil Ujian Kamu:</h3>
+        <p id="scoreText"></p>
+        <p id="feedback"></p>
+        <button type="button" onclick="location.reload()">Ulangi Ujian</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
